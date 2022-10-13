@@ -16,7 +16,9 @@ while (true) {
     const mountainH = parseInt(readline()); // represents the height of one mountain.
     if (mountainH > mountainHmax){
         mountainHmax=mountainH;
-        
+        target=i;
     }
 }
+
+console.log(target);
 }
