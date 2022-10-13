@@ -12,5 +12,11 @@ while (true) {
     var mountainHmax=0;
     var target=0;
    // The index of the mountain to fire on.
-
+   for (let i = 0; i < 8; i++) {
+    const mountainH = parseInt(readline()); // represents the height of one mountain.
+    if (mountainH > mountainHmax){
+        mountainHmax=mountainH;
+        target=i;
+    }
+}
 }
